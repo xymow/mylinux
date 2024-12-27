@@ -1,0 +1,43 @@
+snippet func
+    function ${1:functionName}(${2:args}) {
+        ${0:// code}
+    }
+endsnippet
+
+snippet event
+    ${1:element}.addEventListener("${2:click}", function(event) {
+        ${0:// code}
+    });
+endsnippet
+
+snippet for
+    for (let ${1:i} = 0; ${1:i} < ${2:10}; ${1:i}++) {
+        ${0:// code}
+    }
+endsnippet
+
+snippet obj
+    const ${1:objectName} = {
+        ${2:key}: ${3:value},
+    };
+endsnippet
+
+snippet script
+    <script src="${1:script.js}"></script>
+endsnippet
+
+snippet viewport
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+endsnippet
+
+snippet button
+    <button type="${1:button}">${2:Button Text}</button>
+endsnippet
+
+snippet form
+    <form action="${1:#}" method="${2:get}">
+        <label for="${3:id}">${4:Label}</label>
+        <input type="${5:text}" id="${3:id}" name="${6:name}" value="${7:}">
+        ${0}
+    </form>
+endsnippet

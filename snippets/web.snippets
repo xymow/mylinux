@@ -1,0 +1,46 @@
+snippet html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>${1:Document}</title>
+    </head>
+    <body>
+        ${0}
+    </body>
+    </html>
+endsnippet
+
+snippet a
+    <a href="${1:#}">${2:Link Text}</a>
+endsnippet
+
+snippet img
+    <img src="${1:#}" alt="${2:Image Description}">
+endsnippet
+
+snippet div
+    <div class="${1:class-name}">
+        ${0}
+    </div>
+endsnippet
+
+snippet css
+    ${1:selector} {
+        ${2:property}: ${3:value};
+    }
+endsnippet
+
+snippet class
+    .${1:class-name} {
+        ${0}
+    }
+endsnippet
+
+snippet id
+    #${1:id-name} {
+        ${0}
+    }
+endsnippet

@@ -1,0 +1,46 @@
+snippet func
+    ${1:void} ${2:function_name}(${3:void}) {
+        ${0:// code}
+    }
+endsnippet
+
+snippet struct
+    typedef struct {
+        ${1:int} ${2:field_name};
+    } ${3:struct_name};
+endsnippet
+
+snippet for
+    for (${1:int i = 0}; ${2:i < 10}; ${3:i++}) {
+        ${0:// code}
+    }
+endsnippet
+
+snippet while
+    while (${1:condition}) {
+        ${0:// code}
+    }
+endsnippet
+
+snippet if
+    if (${1:condition}) {
+        ${2:// code}
+    } else {
+        ${3:// code}
+    }
+endsnippet
+
+snippet ret_func
+    ${1:int} ${2:function_name}(${3:void}) {
+        return ${4:0};
+    }
+endsnippet
+
+snippet include
+    #include <${1:stdio.h}>
+endsnippet
+
+snippet global
+    ${1:int} ${2:variable_name};
+endsnippet
+
